@@ -646,3 +646,7 @@ BUILD_DATE := NA
 endif
 
 include $(ROOT_DIR)/testlist.mk
+
+.PHONY: jack
+jack:
+	echo 'make handwired/dactyl_manuform/5x6:default:avrdude-split-left'
